@@ -34,7 +34,7 @@ function updateSlideNumbers() {
 function display(slideIndex){
     currentSlide = slideIndex;
     slide.style.transform = `translateX(-${currentSlide * 100}%)`;
-    
+    updateSlideNumbers();
 }
 prev.addEventListener('click', function(){ 
     if(currentSlide > 0){
