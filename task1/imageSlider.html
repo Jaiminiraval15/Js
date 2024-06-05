@@ -5,12 +5,14 @@
 </head>
 <body>
     <div class="image-slider">
-        <input type="file" multiple/>
+        <input id="img" type="file" multiple/>
     </div>
-    <div class="slides"></div>
+    <div class="slider-container">
+        <div class="slides" id="slides-container"></div>
+    </div>
     <div class="btn">
-    <button>Previous</button>
-    <button>Next</button>
+    <button id="prev">Previous</button>
+    <button id="next">Next</button>
 </div>
     <script src="script.js"></script>
 </body>
