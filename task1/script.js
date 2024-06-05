@@ -1,8 +1,8 @@
 
 const slide = document.querySelector('.slides');
  const img = document.getElementById('img');
- const prev = document.querySelector('prev');
- const next = document.querySelector('next');
+ const prev = document.getElementById('prev');
+ const next = document.getElementById('next');
  let images = [];
  let currentSlide = 0;document.addEventListener('DOMContentLoaded', function() {
     createImage();
