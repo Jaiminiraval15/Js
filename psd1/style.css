@@ -1,0 +1,33 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    max-width: 1319px;
+    max-height: 33px;
+    margin: 0 auto;
+   
+}
+ nav .logo{
+    font-weight: 700;
+    font-size: 30px;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    gap:761px
+}
+nav ul{ 
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    gap: 60px;
+   list-style: none;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 25px;
+    
+}
