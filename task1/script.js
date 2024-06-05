@@ -4,7 +4,8 @@ const slide = document.querySelector('.slides');
  const prev = document.getElementById('prev');
  const next = document.getElementById('next');
  let images = [];
- let currentSlide = 0;document.addEventListener('DOMContentLoaded', function() {
+ let currentSlide = 0;
+ document.addEventListener('DOMContentLoaded', function() {
     createImage();
     display(currentSlide);
 })
@@ -15,7 +16,7 @@ const slide = document.querySelector('.slides');
     display(currentSlide);
  })
 function createImage(){
-    slide.innerHTML = '';
+    slide.innerHTML = ' ';
     images.forEach(image => {
         const img = new Image();
         img.src = URL.createObjectURL(image);
